@@ -10,3 +10,7 @@ hist(df2$gbpfood)
 #normal but still not very good
 t.test(df2$gbpfood ~ df2$isAsian)
 wilcox.test(df2$gbpfood ~ df2$isAsian)
+
+boxplot(df2$gbpfood ~ df2$isAsian, xlab =
+          "Provenance", ylab = "£s weekly spent on
+food", main = "Money spent on food ")
