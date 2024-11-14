@@ -8,9 +8,13 @@ hist(df2$gbpfood)
 #that is a bit normal but not convincingly. (If we
 #had put the limit at 80 it does appear more
 #normal but still not very good
+#test
 t.test(df2$gbpfood ~ df2$isAsian)
 wilcox.test(df2$gbpfood ~ df2$isAsian)
 
 boxplot(df2$gbpfood ~ df2$isAsian, xlab =
           "Provenance", ylab = "£s weekly spent on
 food", main = "Money spent on food ")
+
+
+
